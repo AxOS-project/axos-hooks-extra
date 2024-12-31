@@ -1,7 +1,7 @@
 # Maintainer: Aditya Shakya <adi1090x@gmail.com>
 
 pkgname="axos-hooks-extra"
-pkgver=3.2
+pkgver=3.3
 pkgrel=1
 pkgdesc='Extra pacman hooks for AxOS'
 arch=('x86_64')
@@ -19,4 +19,4 @@ package() {
   install -Dm 755 axos-hooks-extra       		"$bin"/axos-hooks-extra
 }
 sha256sums=('9802a4f6235f378df078a55cc73bb06a6ccae113928dcd39de3dbe5ad1ad42fb'
-            '52b4fbadb74ddf8bde7323f3d5dbd5ed34ac389fd637d9697aeec558c4a8d0a2')
+            'e5e582946e79d092e19fa703edbf6ea7e2849f7e815e62d80dd3696a1821502e')
